@@ -96,6 +96,8 @@
 &kp PIPE       &kp AMPERSAND     &kp HASH           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET      &kp UNDERSCORE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERCENT   &kp ASTERISK
 &trans         &trans            &trans             &trans                &trans                 &trans         &trans          &trans                                                  &kp SLASH
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         FUNCTION {
@@ -105,6 +107,8 @@
 &trans  &trans  &trans              &trans            &kp LEFT_COMMAND     &kp UP_ARROW         &kp LS(LG(R))  &kp SLASH  &kp TAB    &kp F12        &trans            &trans
 &trans  &trans  &trans              &kp LEFT_ARROW    &kp DOWN_ARROW       &kp RIGHT_ARROW      &kp LC(C)      &trans                                                 &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         Bluetooth {
