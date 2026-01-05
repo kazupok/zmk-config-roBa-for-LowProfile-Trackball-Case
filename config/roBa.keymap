@@ -86,7 +86,7 @@
 &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp AT  &lt_to_layer_0 1 SPACE  &kp LANG2           &kp LANG1        &lt_to_layer_0 1 ENTER                             &lt_to_layer_0 3 TAB
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         NUM {
