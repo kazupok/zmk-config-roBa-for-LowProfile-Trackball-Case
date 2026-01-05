@@ -86,7 +86,7 @@
 &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp AT  &lt_to_layer_0 1 SPACE  &kp LANG2           &kp LANG1        &lt_to_layer_0 1 ENTER                             &lt_to_layer_0 3 TAB
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         NUM {
@@ -96,6 +96,8 @@
 &kp PIPE       &kp AMPERSAND     &kp HASH           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET      &kp UNDERSCORE  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp PERCENT   &kp ASTERISK
 &trans         &trans            &trans             &trans                &trans                 &trans         &kp COLON       &kp SEMICOLON                                            &kp SLASH
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         FUNCTION {
@@ -105,6 +107,8 @@
 &kp LG(Z)  &trans          &trans              &trans            &kp LEFT_COMMAND     &kp UP_ARROW         &kp LS(LG(R))  &kp SLASH  &kp TAB    &kp F12        &kp LEFT_ARROW    &kp RIGHT_ARROW
 &trans     &trans          &trans              &kp LEFT_ARROW    &kp DOWN_ARROW       &kp RIGHT_ARROW      &kp LC(C)      &kp ENTER                                              &kp DOWN_ARROW
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         Bluetooth {
