@@ -91,10 +91,10 @@
 
         NUM {
             bindings = <
-&kp SLASH      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN         &kp GREATER_THAN                                       &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp TILDE  &kp PLUS
-&kp BACKSLASH  &kp EXCLAMATION   &kp QUESTION       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE       &kp NUMBER_0    &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL  &kp ASTERISK
-&kp PIPE       &kp AMPERSAND     &kp HASH           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET       &kp UNDERSCORE  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &trans     &kp PERCENT
-&trans         &trans            &trans             &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &kp DOLLAR      &kp COLON       &kp SEMICOLON                                         &kp SLASH
+&kp LESS_THAN   &kp GREATER_THAN  &kp AMPERSAND  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES                                 &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LEFT_BRACE  &kp RIGHT_BRACE   &kp DOLLAR     &kp HASH          &kp EXCLAMATION    &trans           &kp NUMBER_0  &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+&kp PERCENT     &kp SLASH         &kp ASTERISK   &kp MINUS         &kp PLUS           &kp EQUAL        &kp TILDE     &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &trans                &kp QUESTION
+&kp CARET       &kp PIPE          &kp GRAVE      &kp BACKSLASH     &trans             &kp INT_YEN      &kp COLON     &kp SEMICOLON                                                    &kp UNDERSCORE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
