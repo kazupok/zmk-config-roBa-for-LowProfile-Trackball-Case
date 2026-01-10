@@ -114,10 +114,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp L         &kp E      &kp U      &kp F                                            &kp B        &kp W  &kp R  &kp Y            &kp P
-&kp F             &kp Z         &kp I      &kp A      &kp O       &mo 4                 &kp BACKSPACE  &kp K        &kp T  &kp N  &scroll_key 5 S  &kp H
-&kp LEFT_SHIFT    &kp UP_ARROW  &kp X      &kp C      &kp V       &mo 3                 &kp ENTER      &kp G        &kp D  &kp M  &kp J            &kp MINUS
-&kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE  &kp COMMA  &kp PERIOD  &kp LEFT_COMMAND      &kp LANG2      &lt 1 LANG1                                 &mkp MB1
+&kp Q           &kp R         &kp T             &kp S    &kp K                                 &kp Y           &kp U  &kp I  &kp O            &kp BACKSPACE
+&kp F           &kp D         &kp G             &kp N    &kp H      &mo 4          &kp COMMA   &kp W           &kp A  &kp E  &scroll_key 5 L  &kp ENTER
+&kp Z           &kp X         &kp C             &kp V    &kp M      &mo 3          &kp PERIOD  &kp B           &kp P  &kp J  &mkp MB1         &mkp MB2
+&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp TAB  &kp LANG2  &kp LANG1      &kp SPACE   &lt 1 QUESTION                                 &kp RIGHT_CONTROL
             >;
 
             sensor-bindings = <&encoder_scroll>;
